@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.logo .top-logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.nav-center {
+    display: flex;
+    gap: 5rem;
+}
+
+
+.nav-center li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+ .nav-center li a:hover {
+    color: #acacff;
+ }
+
+.nav-center a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button {
+     padding: 0.7rem;
+     border-radius: 15px;
+     border: none;
+     cursor: pointer;
+}
+
+.navbar button:hover {
+    background: #ECEAF9;
+}
+
+.bg {
+    position: relative;
+    margin-top: 70px;
+    background-color: #ECEAF9;
+}
+
+.bg .image1 {
+    width: 500px;
+    display: block;
+    padding-top: 20px;
+    position: absolute;
+    left: 50em;
+    margin-top: 30px;
+}
+.bg .top {
+    position: absolute;
+    width: 350px;
+    line-height: 1.2em;
+    z-index: 1;
+    margin: 60px 0 0 100px;
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg .bottom {
+    margin: 250px 0 0 100px;
+    width: 600px;
+    line-height: 1.3em;
+    padding-bottom: 50px;
+}
+
+.bottom span {
+    font-weight: bold;
+}
+.flex1 .flex1head {
+    width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 2.2em;
+    margin: 120px 0 0 200px;
+    line-height: 1.5em;
+}
+.flex1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.flex1 .details {
+    width: 480px;
+    margin: 20px 0;
+    border: 1px solid #ECEAF9;
+    padding: 1rem;
+    border-radius: 15px;
+    height: 80px;
+}
+
+.flex2 {
+    background-color: #ECEAF9;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+    overflow: hidden;
+}
+
+.flex2 .details1 {
+    width: 500px;
+    margin: 15px 0 15px 200px;
+}
+
+.details1 .top1 {
+    margin: 70px 0 30px 0 ;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.flex2 img {
+    width: 400px;
+    margin: 10px 80px 0 0;
+}
+
+.flex3 {
+    display: flex;
+    height: 300px;
+    margin-top: 80px;
+    justify-content: space-between;
+    padding: 5px 50px;    
+}
+.flex3 .details2 {
+    width: 500px;
+    margin: 30px 0 15px 200px;
+}
+
+.flex3 video {
+    border-radius: 20px;
+
+}
+
+.details2 .top2 {
+    margin-top: 30px 0 30px 0;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.display {
+    display:block;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(37, 37, 37, 0.842);
+    z-index: 9999;
+    display: none;
+}
+
+.close {
+    color: red;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    cursor: pointer;
+    border: none;
+    background: transparent
+}
+
+.close:hover {
+    background-color: transparent
+}
+
+.container {
+    padding: 16px;
+    width: 600px;
+    background-color: white;
+    height: 600px;
+    overflow-y: scroll;
+}
+  
+input[type=text], input[type=password], input[type=tel], input[type=date] {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=date]{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+a {
+    color: dodgerblue;
+}
+  
+.last-page {
+    background-color: #000000e1;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8rem 0 0 0;
+    padding-bottom: 3rem;
+}
+
+.tops p {
+    color: white;
+}
+
+.last-page .bottom1 {
+    padding-top: 3rem;
+    font-weight: bold;
+}
+
+.last-page .bottom2 {
+    color: white;
+    padding-top: 0.5rem;
+}
+
+.footer1{
+    background-color: rgba(0, 0, 0, 0.945);
+    border-top: 2px solid white;
+}
+
+.footer1 p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

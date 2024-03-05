@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.navbar {
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.logo .top-logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.nav-center {
+    display: flex;
+    gap: 5rem;
+}
+
+
+.nav-center li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+ .nav-center li a:hover {
+    color: #939ddfaf ;
+ }
+
+.nav-center a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button {
+     padding: 0.7rem;
+     border-radius: 20px;
+     border: none;
+     cursor: pointer;
+}
+
+.navbar button:hover {
+    background: #939ddfaf ;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.overlay-text {
+    position: absolute;
+    top: 45%; 
+    right: 40%; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+}
+
+.image-container .overlay-text {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.test1 {
+    background-color: #90A5C2 ;
+    height: 350px;
+}
+
+.test1 .details {
+    width: 70%;
+    /* margin: 15px 0 15px 200px; */
+    margin-left: 200px;
+    line-height: 1.5em;
+}
+
+.details .about {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 70px 0 20px 0;
+}
+
+.offers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.offers .moreof {
+    width: 200px;
+    margin: 0 80px 0 80px;
+    line-height: 1.5em;
+}
+
+.moreof .first {
+    padding-bottom: 0.8em;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.second span {
+    font-weight: bold;
+}
+
+.last-page {
+    background-color: #000000e1;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8rem 0 0 0;
+    padding-bottom: 3rem;
+}
+
+.tops p {
+    color: white;
+}
+
+.last-page .bottom1 {
+    padding-top: 3rem;
+    font-weight: bold;
+}
+
+.last-page .bottom2 {
+    color: white;
+    padding-top: 0.5rem;
+}
+
+.footer1{
+    background-color: rgba(0, 0, 0, 0.945);
+    border-top: 2px solid white;
+}
+
+.footer1 p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ----------------- faculty----------------- */
+
+
+/* 
+    <a href"src" download>download</a>
+ */

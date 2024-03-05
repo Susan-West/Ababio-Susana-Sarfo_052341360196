@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   /*  background-color: #a8a8d4; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin: 50px 30px;
+    font-size: 17px;
+   /*  font-size: 17px; */
+    /* padding: 8px; */
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    
+}
+
+.logo .top-logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.nav-center {
+    display: flex;
+    gap: 5rem;
+}
+
+
+.nav-center li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+ .nav-center li a:hover {
+    color: #acacff;
+ }
+
+.nav-center a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button {
+     padding: 0.7rem;
+     border-radius: 15px;
+     border: none;
+     cursor: pointer;
+}
+
+.navbar button:hover {
+    background: #ECEAF9;
+}
+
+.container{
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px 10px 15px 20px;
+}
+
+p{
+    font-size: 13px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+div{
+    margin: 10px;
+}
+
+.main-heading{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: #acacff;
+    color: honeydew;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #7777e0;
+}
+
+fieldset{
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.Gender{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#visa{
+    width: 65px;
+}
+
+#mobile_money{
+    width: 95px;
+    height: 56px;
+}
+
+#mastercard{
+    width: 65px;
+}

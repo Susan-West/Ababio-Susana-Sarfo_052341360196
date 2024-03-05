@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.navbar {
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.logo .top-logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.nav-center {
+    display: flex;
+    gap: 5rem;
+}
+
+
+.nav-center li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+ .nav-center li a:hover {
+    color: #939ddfaf ;
+ }
+
+.nav-center a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button {
+     padding: 0.7rem;
+     border-radius: 20px;
+     border: none;
+     cursor: pointer;
+}
+
+.navbar button:hover {
+    background: #939ddfaf ;
+}
+
+
+.image-container1 {
+    padding-top: 15px;
+    position: relative;
+   /*  display: inline-block; */
+  }
+  
+.image-container1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.overlay-text1 {
+    position: absolute;
+    top: 60%; 
+    right: 55%; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+}
+
+.image-container1 .overlay-text1 {
+    font-weight: bolder;
+    font-size: 6rem;
+}
+
+.dept {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dept img {
+    margin: 100px 0 0 60px;
+    width: 400px;
+    height: 300px;
+}
+
+.dept .dept-img {
+    margin: 100px 400px 0 0;
+    width: 400px;
+}
+
+.dept .dept-img .all-dept {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.945);
+    margin: 20px 0 0 0;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
